@@ -318,12 +318,6 @@ body{
 }
 
 
-@media only screen and (max-width:390px){
-				.hero-img{
-								top:40px;
-								margin-top: 30px;
-				}
-}
 
 @media only screen and (max-width:1000px){
 				.hero-img{
@@ -390,6 +384,12 @@ body{
 }
 
 
+@media only screen and (max-width:400px){
+				.hero-img{
+								top:-90px;
+								left: 150px;
+				}
+}
 
 
 
