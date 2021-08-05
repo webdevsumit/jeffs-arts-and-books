@@ -110,7 +110,7 @@ nav{
 				box-shadow: 0.5px 0.5px 4px grey,
 																-0.5px -0.5px 4px grey,
 																1px 1px 5px grey;
-				animation: r-l 0.4s ease 0.2s forwards;
+				animation: r-l 0.4s ease 2.5s forwards;
 }
 
 body{
@@ -133,7 +133,7 @@ body{
 				height: 160px;
 				margin-right: auto;
 				margin-left: 30px;
-				background-color: rgba(255,255,255,0.7);
+				background:linear-gradient(-25deg, rgba(155,155,155,0.7),rgba(255,255,255,0.7));
 				box-shadow: 0.5px 0.5px 4px grey,
 																-0.5px -0.5px 4px grey,
 																1px 1px 5px grey;
@@ -274,6 +274,7 @@ body{
 				color: white;
 				background: black;
 				transition: all ease 0.3s;
+				font-size: 0.8""em;
 }
 
 .hero-intro a:hover{
@@ -315,6 +316,14 @@ body{
 				transform: translateY(0px);
 				box-shadow: 0.5px 0.5px 4px grey;
 			margin: 20px auto;									
+}
+
+.artist-name{
+				border-bottom-width: 2px;
+				border-bottom-style: solid;
+				border-image:linear-gradient(90deg,white, blue, white) 1;
+				width: fit-content;
+				padding: 5px;
 }
 
 
@@ -386,8 +395,8 @@ body{
 
 @media only screen and (max-width:400px){
 				.hero-img{
-								top:-90px;
-								left: 150px;
+								top:20px;
+								left: 50px;
 				}
 }
 
