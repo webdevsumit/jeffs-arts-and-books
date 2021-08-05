@@ -294,11 +294,39 @@ body{
 				margin: 40px auto;
 }
 
+#about-company-head{
+				opacity: 0;
+				transition:all ease 0.4s ;
+				transform: translateY(30px);
+				animation: head-anim 0.3s ease 2s forwards;
+}
+
+#about-company-p1{
+				opacity: 0;
+				transition:all ease 0.4s ;
+				transform: translateY(30px);
+				animation: head-anim 0.3s ease 2.2s forwards;
+}
+
+
+
+@keyframes head-anim {
+				from{
+								opacity: 0;
+								transform: translateY(30px);
+				}
+				to{
+								opacity: 1;
+								transform: translateY(0px);
+				}
+}
+
 .about-company p{
 				margin: 15px auto;
 				font-family: serif;
 				word-spacing: 5px;
 				letter-spacing: 1.2px;
+				transition: all ease 0.3s;
 }
 
 
