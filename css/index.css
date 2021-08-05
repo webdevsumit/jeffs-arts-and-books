@@ -288,11 +288,17 @@ body{
 
 .about-company{
 				padding: 40px;
+				transition:all ease 0.4s ;
 }
 
 .about-company h4{
 				margin: 40px auto;
 }
+
+.about-company img,.about-company h4, .about-company h6{
+				transition:all ease 0.4s ;
+}
+
 
 #about-company-head{
 				opacity: 0;
@@ -307,6 +313,7 @@ body{
 				transform: translateY(30px);
 				animation: head-anim 0.3s ease 2.2s forwards;
 }
+
 
 
 
