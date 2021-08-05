@@ -1,7 +1,7 @@
 *{
 				margin: 0;
 				padding: 0;
-				bobox-shadow: border-box;
+				box-sizing: border-box;
 }
 
 nav{
@@ -362,6 +362,35 @@ body{
 }
 
 
+.footer-section{
+				background-color: black;
+				color: white;
+				padding: auto;
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+}
+
+footer{
+				width: 70%;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				margin: 20px auto;
+}
+
+footer div h4{
+				margin-bottom:10px;
+}
+
+footer div a{
+				font-size: 0.8em;
+				color: white;
+				display: block;
+				cursor: pointer;
+}
 
 @media only screen and (max-width:1000px){
 				.hero-img{
@@ -426,6 +455,8 @@ body{
 				}
 				
 }
+
+
 
 
 @media only screen and (max-width:400px){
