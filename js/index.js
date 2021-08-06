@@ -4,7 +4,6 @@ window.addEventListener("scroll",function () {
 				var comP2 = document.getElementById("about-company-p2");
 				var comP3 = document.getElementById("about-company-p3");
 				var comP4 = document.getElementById("about-company-p4");
-				var comP5 = document.getElementById("about-company-p5");
 				
 				if (window.pageYOffset>=200) {
 								comP2.style.opacity = 1;
@@ -27,13 +26,7 @@ window.addEventListener("scroll",function () {
 								comP4.style.opacity = 0;
 								comP4.style.transform = "translateY(30px)";
 				};
-				if (window.pageYOffset>=440) {
-								comP5.style.opacity = 1;
-								comP5.style.transform = "translateY(0px)";
-				}else {
-								comP5.style.opacity = 0;
-								comP5.style.transform = "translateY(30px)";
-				};
+				
 				
 				var authH = document.getElementById("author-h");
 				var authP1 = document.getElementById("author-p1");
