@@ -91,3 +91,19 @@ window.addEventListener("scroll",function () {
 				};
 				
 });
+
+window.addEventListener("click", function (e){
+				var menuBtn = document.getElementById("menu-bar-btn");
+				var cross = document.getElementById("cross");
+				var menuBar = document.getElementById("menu-bar");
+				
+				if (window.innerWidth) {			
+								if (menuBtn.checked) {
+												cross.style.opacity = 1;
+												menuBar.style.opacity = 0;
+								}else{
+												cross.style.opacity = 0;
+										  	menuBar.style.opacity = 1;
+								};
+				};
+});

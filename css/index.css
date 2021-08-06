@@ -41,6 +41,26 @@ nav{
 				transition: all ease 0.3s;
 }
 
+#menu-bar-btn{
+				position: absolute;
+				right: 10px;
+				top: 12px;
+				opacity: 0;
+				padding: 5px;
+				transition: all ease 0.3s;
+}
+
+#cross{
+				position: absolute;
+				top: 8px;
+				right: 12px;
+				font-size: 2em;
+				font-family: monospace;
+				font-weight: 900;
+				opacity: 0;
+				transition: all ease 0.3s;
+}
+
 .menu a{
 				margin:auto 6px;
 				font-family: serif;
@@ -423,6 +443,7 @@ footer div a{
 				}
 				.menu-bar{
 								margin-right: 4px;
+								transition: all ease 0.3s;
 				}
 				
 				.menu-bar div{
@@ -430,9 +451,10 @@ footer div a{
 								height: 4px;
 							 background: black;
 							 margin: 2px;
+							 transition: all ease 0.3s;
 				}
 				
-				.menu-bar:hover~.menu{
+				#menu-bar-btn:checked~.menu{
 								height: fit-content;
 								padding: 20px;
 				}
@@ -473,6 +495,11 @@ footer div a{
 								position: relative;
 								top: -80px;
 								left: -30px;
+				}
+				
+				#menu-bar-btn,.menu-bar,#cross{
+								z-index: -2;
+								opacity: 0;
 				}
 				
 				.hero-intro{
