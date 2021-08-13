@@ -1,0 +1,45 @@
+@import url('./index.css');
+
+.gallery-main-container{
+				width: 100%;
+				text-align: center;
+}
+
+.gallery-main-container>h4{
+				margin: 30px auto;
+}
+
+.gallery-art{
+				display: flex;
+				justify-content: center;
+				text-align: center;
+				flex-wrap: wrap;
+				background-color: #f4f4f4;
+				padding: 10px;
+}
+
+.gallery-post{
+				box-shadow: 0.1px 0.1px 4px 1px grey;
+				margin: 15px;
+}
+
+.gallery-post:hover{
+		 transition: all ease 0.3s;
+		 transform: rotateZ(5deg);
+}
+
+.gallery-post>img{
+			width: 150px;
+}
+
+.gallery-post>h5{
+				margin-bottom: 5px;
+}
+
+.gallery-contact{
+				margin: 50px auto;
+}
+
+.gallery-contact>h3{
+				margin: 5px;
+}
