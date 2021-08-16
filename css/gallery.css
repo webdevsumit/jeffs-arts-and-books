@@ -32,8 +32,14 @@
 			width: 150px;
 }
 
+.gallery-post>h4{
+				color: #444;
+				font-weight: 400;
+}
+
 .gallery-post>h5{
 				margin-bottom: 5px;
+				color: #666;
 }
 
 .gallery-contact{

@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Spinnaker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
 *{
 				margin: 0;
 				padding: 0;
 				box-sizing: border-box;
+				font-family: 'Spinnaker', sans-serif;
 }
 
 nav{
@@ -31,7 +38,7 @@ nav{
 }
 
 .logo-container h5{
-				font-family: monospace;
+				font-family: 'Asap Condensed', sans-serif;
 				font-size: 20px;
 				margin-left: 5px;
 }
@@ -89,7 +96,7 @@ nav{
 }
 
 .menu a:active, .menu a:visited{
-				color: darkblue;
+				color: #444;
 }
 
 .menu a:hover{
@@ -167,7 +174,6 @@ body{
 }
 
 .hero-intro h1{
-						font-family: monosapce;	
 						transition: all ease 0.3s;
 						font-size: 1.1em;	
 }
@@ -182,8 +188,13 @@ body{
 		  opacity: 0;
 }
 
+a{
+				color:#aaa;
+}
+
+
 .hero-intro h1:nth-child(2){
-				color: #2600ff;
+				color: #9d50eb;
 				transition: all ease 0.3s;
 				opacity: 0;
 				animation: brighter 0.9s ease 0.5s forwards;
@@ -313,6 +324,7 @@ body{
 
 .about-company h4{
 				margin: 40px auto;
+				color: #333;
 }
 
 .about-company img,.about-company h4, .about-company h6{
@@ -332,6 +344,7 @@ body{
 				transition:all ease 0.4s ;
 				transform: translateY(30px);
 				animation: head-anim 0.3s ease 2.2s forwards;
+				
 }
 
 
@@ -352,8 +365,8 @@ body{
 				margin: 15px auto;
 				font-family: serif;
 				word-spacing: 5px;
-				letter-spacing: 1.2px;
 				transition: all ease 0.3s;
+				color: #444;
 }
 
 
@@ -376,7 +389,7 @@ body{
 .artist-name{
 				border-bottom-width: 2px;
 				border-bottom-style: solid;
-				border-image:linear-gradient(90deg,white, blue, white) 1;
+				border-image:linear-gradient(90deg,white, #9d50eb , white) 1;
 				width: fit-content;
 				padding: 5px;
 }
@@ -429,7 +442,7 @@ footer div a{
 								position: fixed;
 								top: 40px;
 								right: 0;
-								background-color: rgba(255,255,255,0.4);
+								background-color: rgba(255,255,255,0.6);
 								padding:30px 10px 30px 10px;
 								overflow: hidden;
 								height: 0;
