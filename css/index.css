@@ -70,7 +70,7 @@ nav{
 
 .menu a{
 				margin:auto 6px;
-				font-family: serif;
+				font-family: 'Asap Condensed', sans-serif;
 				color:black;
 				display: block;
 				outline: none;
@@ -379,11 +379,11 @@ a{
 }
 
 .avatar{
-				width: 120px;
+				width: 200px;
 				transition: all ease 0.3s;
 				transform: translateY(0px);
 				box-shadow: 0.5px 0.5px 4px grey;
-			margin: 20px auto;									
+			 margin: 20px auto;									
 }
 
 .artist-name{
