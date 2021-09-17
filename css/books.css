@@ -1,0 +1,49 @@
+.all-book-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.book-container{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    border: 1px solid rgba(0, 80, 184, 0.103);
+    box-shadow: 0.3px 0.3px 3px rgba(0, 80, 184, 0.11);
+    border-radius: 2px;
+}
+
+.book-container h4{
+    margin-top: 20px;
+}
+
+.book{
+    width: 350px;
+    box-shadow: 0.2px 0.2px 2px rgb(12, 12, 12);
+    margin: 25px auto;
+}
+
+.description{
+    margin: 10px;
+    max-width: 400px;
+}
+
+.link-button{
+    font-family: serif;
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    box-shadow: 0.5px 0.5px 5px grey;
+    width: fit-content;
+    margin-top: 10px;
+    color: white;
+    background: black;
+    transition: all ease 0.3s;
+    font-size: 0.8 "" em;
+    margin: 10px auto;
+  }

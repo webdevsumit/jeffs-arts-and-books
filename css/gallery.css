@@ -1,51 +1,51 @@
-@import url('./index.css');
+@import url("./index.css");
 
-.gallery-main-container{
-				width: 100%;
-				text-align: center;
+.gallery-main-container {
+  width: 100%;
+  text-align: center;
 }
 
-.gallery-main-container>h4{
-				margin: 30px auto;
+.gallery-main-container > h4 {
+  margin: 30px auto;
 }
 
-.gallery-art{
-				display: flex;
-				justify-content: center;
-				text-align: center;
-				flex-wrap: wrap;
-				background-color: #f4f4f4;
-				padding: 10px;
+.gallery-art {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: #f4f4f4;
+  padding: 10px;
 }
 
-.gallery-post{
-				box-shadow: 0.1px 0.1px 4px 1px grey;
-				margin: 15px;
+.gallery-post {
+  box-shadow: 0.1px 0.1px 4px 1px grey;
+  margin: 15px;
 }
 
-.gallery-post:hover{
-		 transition: all ease 0.3s;
-		 transform: rotateZ(5deg);
+.gallery-post:hover {
+  transition: all ease 0.3s;
+  transform: rotateZ(5deg);
 }
 
-.gallery-post>img{
-			width: 250px;
+.gallery-post > img {
+  width: 250px;
 }
 
-.gallery-post>h4{
-				color: #444;
-				font-weight: 400;
+.gallery-post > h4 {
+  color: #444;
+  font-weight: 400;
 }
 
-.gallery-post>h5{
-				margin-bottom: 5px;
-				color: #666;
+.gallery-post > h5 {
+  margin-bottom: 5px;
+  color: #666;
 }
 
-.gallery-contact{
-				margin: 50px auto;
+.gallery-contact {
+  margin: 50px auto;
 }
 
-.gallery-contact>h3{
-				margin: 5px;
+.gallery-contact > h3 {
+  margin: 5px;
 }
