@@ -1,21 +1,21 @@
-<ul></ul>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<link rel="stylesheet" href="css/gallery.css">
-	</link>
-	<script src="./js/index.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/gallery.css" />
+	<link rel="stylesheet" href="/css/next.css" />
 	<title>Jeff's Arts and Books</title>
 </head>
 
 <body>
 	<nav>
 		<div class="logo-container">
-			<img class="logo" src="./assets/o-logo.png" alt="logo" />
-			<h5>JAB</h5>
+			<img class="logo" src="./assets/logo.png" alt="logo" />
 		</div>
 		<div>
 			<div id="cross">X</div>
@@ -37,13 +37,24 @@
 
 
 		<section class="gallery-main-container">
-			<h4>What Next?</h4>
-			<!-- code  -->
+			<h1 class="head">UPCOMING BOOKS</h1>
 
-			<div class="gallery-contact">
-				<h3>Contact Now</h3><br>
-				<label>Mobile no : </label><a href="tel:+17182160290">+1 718 216 0290</a><br><br>
-				<label>Email id : </label><a href="mailto:jeffjoe00761@gmail.com">jeffjoe00761@gmail.com</a>
+			<div class="all-book-container">
+
+				<div class="book-container">
+					<h3 class="book-head">BLACK INVENTORS</h3>
+					<p class="description">BLACK INVENTORS is a coloring book created for all ages.
+						It offers the reader the rare opportunity to be creative,
+						informed and entertained—all at the same time.
+						The artwork provided was designed to stimulate the reader’s artistic abilities through
+						imagination and color coordination.
+						It is my hope that the education gained from the wealth of information presented will be an
+						inspiration to readers,
+						as well as society in general.
+					</p>
+					<a class='link-button' href="https://jeff-s-art-and-books.myshopify.com/">Get Printed Copy Now</a>
+				</div>
+				<img class="new-book-img" src="./assets/books-images/Jeff Book Cover.jpg" alt="new book">
 			</div>
 		</section>
 
@@ -70,5 +81,23 @@
 		</section>
 	</main>
 </body>
+<script>
+	window.addEventListener("click", function (e) {
+		var menuBtn = document.getElementById("menu-bar-btn");
+		var cross = document.getElementById("cross");
+		var menuBar = document.getElementById("menu-bar");
+
+		if (window.innerWidth) {
+			if (menuBtn.checked) {
+				cross.style.opacity = 1;
+				menuBar.style.opacity = 0;
+			} else {
+				cross.style.opacity = 0;
+				menuBar.style.opacity = 1;
+			};
+		};
+	});
+
+</script>
 
 </html>

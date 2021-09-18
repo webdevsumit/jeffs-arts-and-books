@@ -1,10 +1,12 @@
-<ul></ul>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/gallery.css">
 	</link>
 	<title>Jeff's Arts and Books</title>
@@ -120,6 +122,23 @@
 			<h6>&copy COPYRIGHT 2021</h6>
 		</section>
 	</main>
+	<script>
+		window.addEventListener("click", function (e) {
+			var menuBtn = document.getElementById("menu-bar-btn");
+			var cross = document.getElementById("cross");
+			var menuBar = document.getElementById("menu-bar");
+
+			if (window.innerWidth) {
+				if (menuBtn.checked) {
+					cross.style.opacity = 1;
+					menuBar.style.opacity = 0;
+				} else {
+					cross.style.opacity = 0;
+					menuBar.style.opacity = 1;
+				};
+			};
+		});
+	</script>
 </body>
 
 </html>

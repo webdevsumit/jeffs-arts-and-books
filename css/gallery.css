@@ -49,3 +49,15 @@
 .gallery-contact > h3 {
   margin: 5px;
 }
+
+#cross {
+  position: absolute;
+  top: 35px;
+  right: 12px;
+  font-size: 2em;
+  font-family: monospace;
+  font-weight: 900;
+  opacity: 0;
+  transition: all ease 0.3s;
+  z-index: 2;
+}

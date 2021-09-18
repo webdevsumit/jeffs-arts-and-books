@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Spinnaker", sans-serif;
+  font-family: quicksand, "Spinnaker", sans-serif;
 }
 
 nav {
@@ -38,9 +38,9 @@ nav {
 }
 
 .logo {
-	height: 100px;
-	margin-left: 5px;
-  }
+  height: 100px;
+  margin-left: 5px;
+}
 
 .logo-container h5 {
   font-family: "Asap Condensed", sans-serif;
@@ -349,7 +349,7 @@ a {
 
 .about-company p {
   margin: 15px auto;
-  font-family: serif;
+  font-family: quicksand;
   word-spacing: 5px;
   transition: all ease 0.3s;
   color: #444;
