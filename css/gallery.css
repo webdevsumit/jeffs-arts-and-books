@@ -25,11 +25,13 @@
 
 .gallery-post:hover {
   transition: all ease 0.3s;
-  transform: rotateZ(5deg);
+  transform: scale(1.02);
+  cursor: pointer;
 }
 
 .gallery-post > img {
-  width: 250px;
+  width: 100%;
+  max-width: 650px;
 }
 
 .gallery-post > h4 {

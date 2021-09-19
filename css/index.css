@@ -197,7 +197,7 @@ body {
 }
 
 a {
-  color: #aaa;
+  color: rgb(32, 32, 32);
 }
 
 .hero-intro h1:nth-child(2) {
@@ -225,51 +225,48 @@ a {
   animation-delay: 1.5s;
 }
 
+
 .hero-intro h1:nth-child(3) span:nth-child(4) {
-  animation-delay: 1.6s;
+  animation: none;
 }
 
 .hero-intro h1:nth-child(3) span:nth-child(5) {
-  animation: none;
-}
-
-.hero-intro h1:nth-child(3) span:nth-child(6) {
   animation-delay: 1.7s;
 }
 
-.hero-intro h1:nth-child(3) span:nth-child(7) {
+.hero-intro h1:nth-child(3) span:nth-child(6) {
   animation-delay: 1.8s;
 }
 
-.hero-intro h1:nth-child(3) span:nth-child(8) {
+.hero-intro h1:nth-child(3) span:nth-child(7) {
   animation-delay: 1.9s;
 }
 
-.hero-intro h1:nth-child(3) span:nth-child(9) {
+.hero-intro h1:nth-child(3) span:nth-child(8) {
   animation: none;
 }
 
-.hero-intro h1:nth-child(3) span:nth-child(10) {
+.hero-intro h1:nth-child(3) span:nth-child(9) {
   animation-delay: 2s;
 }
 
-.hero-intro h1:nth-child(3) span:nth-child(11) {
+.hero-intro h1:nth-child(3) span:nth-child(10) {
   animation-delay: 2.1s;
 }
 
-.hero-intro h1:nth-child(3) span:nth-child(12) {
+.hero-intro h1:nth-child(3) span:nth-child(11) {
   animation-delay: 2.2s;
 }
 
-.hero-intro h1:nth-child(3) span:nth-child(13) {
+.hero-intro h1:nth-child(3) span:nth-child(12) {
   animation-delay: 2.3s;
 }
 
-.hero-intro h1:nth-child(3) span:nth-child(14) {
+.hero-intro h1:nth-child(3) span:nth-child(13) {
   animation-delay: 2.4s;
 }
 
-.hero-intro h1:nth-child(3) span:nth-child(15) {
+.hero-intro h1:nth-child(3) span:nth-child(14) {
   animation-delay: 2.5s;
 }
 
@@ -302,8 +299,18 @@ a {
   text-shadow: 0.5px 0.5px 2px white;
 }
 
+
+.company-info-section-wrapper-1{
+  background:linear-gradient(45deg, rgba(135, 160, 241, 0.452), rgba(173, 216, 230, 0.486), rgba(241, 180, 180,5), rgba(247, 88, 88,5));
+}
+
+.company-info-section-wrapper-2{
+  background:linear-gradient(45deg, rgba(126, 205, 231, 0.582),rgba(241, 180, 180, 0.548), rgba(247, 88, 88, 0.411), rgba(228, 121, 255, 0.562));
+}
+
+
 .company-info-section {
-  background-image: url("./../assets/books-back.jpg");
+  background-image: url("./../assets/books-back.png");
 }
 
 .about-company {
