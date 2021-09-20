@@ -192,6 +192,11 @@ body {
   letter-spacing: -4px;
 }
 
+.banner-head, .banner-head>*{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 790;
+}
+
 .space {
   opacity: 0;
 }

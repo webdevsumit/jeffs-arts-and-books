@@ -16,12 +16,12 @@
 
 .new-book-img {
   width: 100%;
-  max-width: 650px;
+  max-width: 610px;
   box-shadow: 0.2px 0.2px 2px rgb(12, 12, 12);
   margin: auto;
 }
 
-.all-book-container {
+.all-book-container,.all-book-container-2 {
   display: flex;
   justify-content: center;
   align-items: flex-start;
