@@ -21,6 +21,7 @@
 .gallery-post {
   box-shadow: 0.1px 0.1px 4px 1px grey;
   margin: 15px;
+  text-decoration: none;
 }
 
 .gallery-post:hover {
