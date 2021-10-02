@@ -22,6 +22,27 @@
   box-shadow: 0.1px 0.1px 4px 1px grey;
   margin: 15px;
   text-decoration: none;
+  padding-bottom: 15px;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgba(0, 0, 0, 0.637);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 14px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  margin: 5px;
+}
+
+.gallery-post:hover .tooltiptext {
+  visibility: visible;
 }
 
 .gallery-post:hover {
