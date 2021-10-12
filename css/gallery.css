@@ -9,6 +9,33 @@
   margin: 30px auto;
 }
 
+.head {
+  font-weight: 900;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 20px auto;
+  font-size: 1.6em;
+}
+
+.gallery-intro{
+  margin: 20px auto;
+  text-align: left;
+  max-width: 95%;
+  padding: 20px;
+  box-shadow: 1px 1px 4px 1px rgb(179, 179, 179);
+}
+
+.gallery-intro>*{
+  margin: 2px auto;
+}
+
+.gallery-intro>a{
+  text-decoration: none;
+}
+
+.gallery-intro>p{
+  margin-bottom: 10px;
+}
+
 .gallery-art {
   display: flex;
   justify-content: center;
@@ -26,23 +53,19 @@
 }
 
 .tooltiptext {
-  visibility: hidden;
   width: 120px;
   background-color: rgba(0, 0, 0, 0.637);
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 5px 0;
+  padding: 5px 10px;
   font-size: 14px;
+  box-shadow: 1px 1px 2px grey;
 
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  margin: 5px;
 }
 
-.gallery-post:hover .tooltiptext {
-  visibility: visible;
+.tooltiptext:hover{
+  box-shadow: 1px 1px 2px 1px grey;
 }
 
 .gallery-post:hover {
@@ -58,7 +81,8 @@
 
 .gallery-post > h4 {
   color: #444;
-  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5px;
 }
 
 .gallery-post > h5 {
